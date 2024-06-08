@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHERVUE by PRACHI</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div>
+      <div id="search">
+        <input type="text" name="" id="city" placeholder="Enter location" />
+        <button onclick="getWeather()">Submit</button>
+      </div>
+
+      <div id="outputdata">
+        <div id="left">
+          <div id="clock">
+            <div class="time" id="time">12:30 <span id="am-pm">PM</span></div>
+            <div class="date" id="date">Monday, 25 May</div>
+          </div>
+          <p id="search_city">Your city</p>
+          <div id="s_temp">
+            <div>
+              <img src="" alt="" id="temp_icon" />
+              <p></p>
+            </div>
+            <p id="temp">28.C</p>
+          </div>
+          <div id="result">
+            <div>
+              <img
+                src="https://i.ibb.co/kc7wFb7/icons8-windsock-100.png"
+                alt=""
+              />
+              <p id="s_wind">wnw</p>
+            </div>
+            <div>
+              <img
+                src="https://i.ibb.co/MSp35q2/icons8-pressure-gauge-96.png"
+                alt=""
+              />
+              <p id="s_presure"></p>
+            </div>
+            <div>
+              <img src="https://i.ibb.co/nqpMSWP/icons8-humidity-64.png""
+              alt="">
+              <p id="s_hum"></p>
+            </div>
+            <div>
+              <img
+                src="https://i.ibb.co/VHySJ06/icons8-sunlight-96.png"
+                alt=""
+              />
+              <p id="s_uv"></p>
+            </div>
+            <div>
+              <img
+                src="https://i.ibb.co/vCNtYjc/icons8-dew-point-64.png"
+                alt=""
+              />
+              <p id="s_dew"></p>
+            </div>
+            <div>
+              <img src="https://i.ibb.co/HLZY714/icons8-eye-100.png" alt="" />
+              <p id="s_vis"></p>
+            </div>
+          </div>
+          <div id="sevenday">
+            <div>
+              <p>date</p>
+              <img src="" alt="" />
+              <p>main</p>
+              <p>temp</p>
+            </div>
+            <div>
+              <p>date</p>
+              <img src="" alt="" />
+              <p>main</p>
+              <p>temp</p>
+            </div>
+            <div>
+              <p>date</p>
+              <img src="" alt="" />
+              <p>main</p>
+              <p>temp</p>
+            </div>
+            <div>
+              <p>date</p>
+              <img src="" alt="" />
+              <p>main</p>
+              <p>temp</p>
+            </div>
+            <div>
+              <p>date</p>
+              <img src="" alt="" />
+              <p>main</p>
+              <p>temp</p>
+            </div>
+            <div>
+              <p>date</p>
+              <img src="" alt="" />
+              <p>main</p>
+              <p>temp</p>
+            </div>
+            <div>
+              <p>date</p>
+              <img src="" alt="" />
+              <p>main</p>
+              <p>temp</p>
+            </div>
+            <div>
+              <p>date</p>
+              <img src="" alt="" />
+              <p>main</p>
+              <p>temp</p>
+            </div>
+          </div>
+        </div>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=india&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+    integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+</html>
+
+<script src="index.js"></script>

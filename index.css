@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1642888374426-8a25dafbc739?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* seacrhbox */
+#search {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#search>input {
+    width: 30%;
+    padding: 10px 10px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: rgba(255, 255, 255, 0.774);
+    border: none;
+}
+
+#search>input:focus {
+    outline: none;
+}
+
+#search>button {
+    border-radius: 0px 25px 25px 0px;
+    border: none;
+    background-color: rgb(73, 60, 250);
+    padding: 0px 20px;
+    color: white;
+}
+
+/* outputdata */
+#outputdata {
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#left {
+    width: 60%;
+}
+
+.time {
+    font-size: 50px;
+}
+
+#am-pm {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.date {
+    font-size: 20px;
+}
+
+#search_city {
+    font-size: 30px;
+}
+
+/* s_temp */
+#s_temp {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#s_temp>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#s_temp>div>img {
+    width: 50px;
+}
+
+#s_temp>div>p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+
+/* result */
+#result {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 20px;
+    width: 100%;
+}
+
+#result>div {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 15px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 150px;
+}
+
+#result p {
+    font-size: 14px;
+    margin-left: 2s0px;
+}
+
+#result img {
+    width: 50px;
+}
+
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 800px;
+    width: 100%;
+}
+
+#gmap_canvas {
+    height: 300px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+
+#sevenday {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+#sevenday>div {
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 15px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#sevenday>div>p {
+    font-weight: normal;
+    font-size: 10px;
+}
