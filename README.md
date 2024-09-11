@@ -1,1 +1,3 @@
 WeatherVue is an innovative weather application crafted to offer users real-time weather updates and detailed forecasts through an engaging and user-friendly interface. The project focuses on developing a responsive and interactive front-end application, leveraging the latest web technologies to ensure accurate and timely weather information is accessible on any device. With a sleek design and intuitive functionality, WeatherVue aims to enhance the user experience, making weather tracking seamless and visually captivating.
+![image](https://github.com/user-attachments/assets/0dbfef8f-ce5a-4ff6-a255-2fac5fa0192b)
+![image](https://github.com/user-attachments/assets/e42f467b-45ad-4d04-89ef-0859c554b8d8)
